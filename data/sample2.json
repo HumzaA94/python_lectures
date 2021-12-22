@@ -1,14 +1,15 @@
 {
-   "firstName": "Joe",
-   "lastName": "Jackson",
-   "gender": "male",
-   "age": 28,
-   "address": {
+   "firstName": ["Joe", "David"],
+   "lastName": ["Jackson", "Test"],
+   "gender": ["male", "male"],
+   "age": [28, 30],
+   "address": [{
        "streetAddress": "101",
        "city": "San Diego",
        "state": "CA"
-   },
+   }, "North"],
    "phoneNumbers": [
-       { "type": "home", "number": "7349282382" }
+       { "type": "home", "number": "7349282382" },
+"Test"
    ]
 }

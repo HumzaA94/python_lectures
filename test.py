@@ -1,10 +1,19 @@
-if __name__ == '__main__':
-    list_ = ["Crosby shot the puck twice.", "random weather today", "2 shots nothing to show.",'SHOTS! GOAL!', "shots", "goal", "goals", "Shots", "assists", "assist"]
+if __name__ == "__main__":
+    list_ = [
+        "Crosby shot the puck twice.",
+        "random weather today",
+        "2 shots nothing to show.",
+        "SHOTS! GOAL!",
+        "shots",
+        "goal",
+        "goals",
+        "Shots",
+        "assists",
+        "assist",
+    ]
 
-    TARGET_LIST = ['shot', 'goal', 'assist']
-    count_dict = {'shot': 0,
-                  'goal': 0,
-                  'assist': 0}
+    TARGET_LIST = ["shot", "goal", "assist"]
+    count_dict = {"shot": 0, "goal": 0, "assist": 0}
     for value in list_:
         value = value.lower().strip()
         print(value)

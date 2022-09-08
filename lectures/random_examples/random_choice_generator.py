@@ -9,5 +9,5 @@ def random_output():
     return print(value)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     random_output()

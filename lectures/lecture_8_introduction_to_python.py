@@ -1,5 +1,5 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 # Global Variables
 bool_variable = True
@@ -26,7 +26,7 @@ def calculation(a, b):
     return plus, minus, multiplication, division, formula_for_living_forever
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     ask("Humza", age=29)
     plus, _, _, _, formula_for_living_forever = calculation(30, 10)
     _, minus, _, _, formula_for_living_forever = calculation(40, 2)

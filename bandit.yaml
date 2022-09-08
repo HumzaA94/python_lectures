@@ -1,0 +1,4 @@
+# following file is used to exclude checks from Bandit
+skips: [
+         "B101", # (assert-used) Test for use of assert
+]
